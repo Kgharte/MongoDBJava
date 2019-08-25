@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="917d069d-56e1-406a-aed1-81e7fb93005d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/CreateMongoDBDocumentModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CreateMongoDBDocumentModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DeleteDBDocument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DeleteDBDocument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MongoDBClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MongoDBClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UpdateDBDocument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UpdateDBDocument.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -53,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/CreateMongoDBDocumentModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
+            <state relative-caret-position="85">
+              <caret line="19" column="60" lean-forward="true" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1481#1491#0" expanded="true" />
@@ -66,11 +69,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/DeleteDBDocument.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="29" selection-start-column="29" selection-end-column="29" />
+            <state relative-caret-position="255">
+              <caret line="63" column="46" lean-forward="true" selection-start-line="60" selection-start-column="9" selection-end-line="63" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -78,8 +84,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/MongoDBClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="22">
+              <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -87,8 +96,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/UpdateDBDocument.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="277">
+              <caret line="59" column="16" lean-forward="true" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -109,11 +121,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/UpdateDBDocument.java" />
-        <option value="$PROJECT_DIR$/src/main/java/MongoDBClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/CreateMongoDBDocument.java" />
         <option value="$PROJECT_DIR$/src/main/java/Catalog.java" />
         <option value="$PROJECT_DIR$/src/main/java/CreateMongoDBDocumentModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MongoDBClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UpdateDBDocument.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DeleteDBDocument.java" />
       </list>
     </option>
   </component>
@@ -188,7 +201,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CreateMongoDBDocumentModel">
+  <component name="RunManager" selected="Application.DeleteDBDocument">
     <configuration name="CreateMongoDBDocument" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CreateMongoDBDocument" />
       <module name="MongoDBJava" />
@@ -203,8 +216,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DeleteDBDocument" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DeleteDBDocument" />
+      <module name="MongoDBJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MongoDBClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MongoDBClient" />
+      <module name="MongoDBJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UpdateDBDocument" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UpdateDBDocument" />
+      <module name="MongoDBJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DeleteDBDocument" />
+        <item itemvalue="Application.MongoDBClient" />
+        <item itemvalue="Application.UpdateDBDocument" />
         <item itemvalue="Application.CreateMongoDBDocumentModel" />
         <item itemvalue="Application.CreateMongoDBDocument" />
       </list>
@@ -241,7 +278,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.3285968" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49959514" weight="0.85612786" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49959514" weight="0.8650089" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -264,20 +301,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DeleteDBDocument.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="29" selection-start-column="29" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/UpdateDBDocument.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Catalog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -287,13 +310,6 @@
             <element signature="e#377#378#0" expanded="true" />
             <element signature="e#400#401#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MongoDBClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -309,11 +325,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/CreateMongoDBDocumentModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
+        <state relative-caret-position="85">
+          <caret line="19" column="60" lean-forward="true" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1481#1491#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MongoDBClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UpdateDBDocument.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="59" column="16" lean-forward="true" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DeleteDBDocument.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="63" column="46" lean-forward="true" selection-start-line="60" selection-start-column="9" selection-end-line="63" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
