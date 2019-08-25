@@ -45,6 +45,7 @@ public class CreateMongoDBDocumentModel
         coll.insertMany(arrayList);
         FindIterable<Document> iterable = coll.find();
         String documentKey = null;
+        
         for (Document document : iterable) {
             Set<String> keySet = document.keySet();
             Iterator<String> iter = keySet.iterator();
